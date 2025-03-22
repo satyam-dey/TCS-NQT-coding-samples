@@ -8,14 +8,10 @@ void findTwoNumbers(int arr[],int target){
         for(int j=i+1;j<n;j++)
         {
             if((arr[i]+arr[j])==target)
-                cout<<"The two numbers are "<<arr[i]<<" + "<<arr[j]<<" = "<<target<<endl;
-            // else
-            // {
-            //     cout<<"No pair found"<<endl;
-            //     break;
-            // }
+                cout<<"The two numbers are "<<arr[i]<<" & "<<arr[j]<<endl;
         }
     }
+    cout<<"No pair found"<<endl;
 }
 
 int main(){
